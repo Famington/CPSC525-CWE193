@@ -19,8 +19,6 @@ An off-by-one error in the loop allows writing beyond the bounds of the buffer, 
    gcc -o vulnerable off_by_one.c
 
 
-# CWE-193: Off-by-one Error Exploitation
-
 ### Exploit
 
 The exploit (exploit.c) generates a payload that:
